@@ -1,0 +1,100 @@
+.width{
+  float: right;
+  margin-right: 400px;
+}
+.tbuttons{
+  display: inline;
+}
+
+  .img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  #input{
+    margin-left: 250px;
+    border: 1px solid gray;
+  
+  }
+.App2 {
+  width: 350px;
+  margin: auto; }
+
+.ToggleSwitch {
+  background: linear-gradient(#ccc, #eee);
+  border: 1px solid purple;
+  height: 24px;
+  width: 46px;
+  border-radius: 1em; }
+.ToggleSwitch .knob {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    background: #666;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    left: 0em;
+    transition: left 0.3s ease-out; }
+  .ToggleSwitch .knob.active {
+      left: 21px; }
+
+      .slider{
+        position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 16px;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+    height: 30px;
+    width: 22px;
+      }
+      .default{
+        float: right;
+        margin-top: -45px;
+        margin-right: 300px;
+      }
+      .boder{
+        width: 75px;
+        border: 1px solid black;
+      }
+
+      .switch{
+        position: relative;
+    display: inline-block;
+    width: 54px;
+    height: 31px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -90px;
+    background-color: #2196F3;
+    border-radius: 14px;  
+      }
+      input:checked + .slider {
+        background-color: #2196F3;
+      }
+      input:checked + .slider {
+        box-shadow: 0 0 1px #2196F3 ;
+ 
+      }
+      input:checked + .slider:before {
+        -webkit-transform:translateX(26px);
+        -ms-transform:translateX(26px);
+        transform: translateX(26px);
+      }
+      .slider.round {
+        border-radius: 34px;
+        margin-right: 500px;
+
+      }
+      .slider.round:before {
+        border-radius: 50%;
+      }
+
+.create-btn{
+  margin-left: 40%;
+}
+
+
+
